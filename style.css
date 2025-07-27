@@ -1,0 +1,105 @@
+/* -estilos- */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* fondo principal oscuro */
+    color: #e0e0e0; /* color de texto principal gris*/
+    margin: 0;
+    padding:0;
+    line-height: 1.6;
+}
+
+header{
+    background-color: #1f1f1f; /* fondo del encabezado más claro queel body */
+    color: #ffffff; /* color del del encabezado blanco*/
+    padding: 1rem 0;
+    text-align: center; /*centrar el texto */
+    border-bottom: 2px solid #00aaff; /* borde con color azul */
+}
+h1, h2,  h3 {
+    color: #ffffff; /* titulos en color blanco*/
+}
+
+main {
+    padding: 20px; /* espacio interno en el contenido principal */
+    margin: 0 20px; /*espacio externo para separar del borde */
+}
+
+footer {
+    text-align: center; /*centra el texto del pie de página */
+    padding:20px;
+    margin-top: 30px;
+    background-color: #1f1f1f; /*mismo color que el header */
+    color: #bbbbbb; /* clor del texto del footer(gris) */
+}
+
+img,iframe, video {
+    max-width: 100%;
+    height: auto;
+    border-radius:8px; /*redondea las esquinas */
+    display: block;
+    margin: 15px auto;
+    border: 1px solid #444; /*bordes para las imágenes */
+}
+
+/* -estilo de los componentes-*/
+
+/*menú de navegación */
+nav ul {
+    padding:  0;
+    list-style-type: none;
+}
+
+
+nav li {
+    display: inline;
+    margin: 0 15px; /* espacio entre elementos*/
+}
+
+nav a {
+    color: #e0e0e0; /* color de los enlaces */
+    text-decoration: none; /* elimina el subrayado de los enlaces */
+    font-weight: bold;
+    font-size: 15px; /*tamaño de la fuente*/
+}
+
+/* hover para los enlaces del menú */
+nav  a:hover {
+    color: #00aaff; /* cambia el color al azul al pasar el mouse*/
+    text-decoration: none; /*sin subrayado */
+}
+
+/*formulario */
+form div {
+    margin-bottom:  14px;
+}
+
+label {
+    display: block;
+    margin-bottom:4px;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: #2a2a2a; /*fondo oscuro para campos de texto */
+    color: #e0e0e0; /*texto claro */
+    border: 1px solid #444; /* borde */
+    border-radius: 3px;
+}
+
+button {
+    background-color: #00aaff; /* color de fondo del botón (azul) */
+    color: #ffffff; /* texto del botón en color blanco*/
+    border: none;
+    padding: 10px 22px;
+    border-radius: 4px;
+    cursor:pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color:  #0077cc; /*azul más oscuro al pasar el mouse */
+}
